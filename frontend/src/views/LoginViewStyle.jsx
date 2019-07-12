@@ -12,7 +12,6 @@ export const LeftContainer = styled.div`
   flex: 1;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 `;
 
 export const RightContainer = styled.div`
