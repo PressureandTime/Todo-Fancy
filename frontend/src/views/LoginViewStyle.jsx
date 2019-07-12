@@ -12,6 +12,8 @@ export const LeftContainer = styled.div`
   flex: 1;
   align-items: center;
   justify-content: center;
+  /* height: 100vh; */
+  height: calc(var(--vh, 1vh) * 100);
 `;
 
 export const RightContainer = styled.div`
@@ -80,7 +82,8 @@ export const ShowCase = styled.div`
   align-items: center;
   background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center
     center / cover;
-  height: 100vh;
+  /* height: 100vh; */
+  height: calc(var(--vh, 1vh) * 100);
   text-align: center;
 
   h1 {
