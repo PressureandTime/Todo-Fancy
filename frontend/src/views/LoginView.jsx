@@ -38,7 +38,7 @@ class LoginView extends React.Component {
             <SignIn>
               <SignForm onSubmit={this.onLogin}>
                 <form onSubmit={this.onLogin}>
-                  <img src="https://img.icons8.com/cute-clipart/128/000000/task.png" />
+                  <img src="../assets/img/task.svg"/>
 
                   <input
                     name="username"
